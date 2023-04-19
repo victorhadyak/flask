@@ -1,0 +1,2 @@
+kubectl create configmap nginx-config --from-file=default.conf
+kubectl create configmap app-config --from-file=app-config
