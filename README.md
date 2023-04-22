@@ -1,10 +1,10 @@
-# Nginx Forward Proxy Kubernetes Deployment
+# 1
 This project provides step-by-step instructions for deploying an Nginx forward proxy in a Kubernetes cluster using Ubuntu.
 
-# Introduction
+# 2
 An HTTP proxy is a server that acts as an intermediary between clients and servers, forwarding HTTP requests and responses. Nginx can act as an HTTP forward proxy in its default configuration, but it cannot handle HTTPS requests without additional configuration or modules. To enable Nginx to handle HTTPS requests as a forward proxy, we will use the ngx_http_proxy_connect_module, which adds support for the CONNECT method used by HTTPS requests.
 
-# Prerequisites
+# 3
 Docker, AWS CLI
 
 # Step 1: Create a Dockerfile
